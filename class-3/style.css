@@ -3,29 +3,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-#main-header {
-    background-color: darkred;
-    color: white;
+#title {
+    color: darkred;
     text-align: center;
-    padding: 20px;
 }
 
 .intro {
-    color: darkblue;
-}
-
-.content {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-}
-
-.highlight {
     color: purple;
-    font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    color: gray;
+    font-size: 18px;
 }
