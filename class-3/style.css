@@ -1,14 +1,19 @@
 body {
-    background-color: lightpink;
+    background-color: #ffe4ec;
     font-family: Arial, sans-serif;
-}
-
-#title {
-    color: darkred;
     text-align: center;
 }
 
-.intro {
-    color: purple;
-    font-size: 18px;
+#main-title {
+    color: #c2185b;
+}
+
+.subtitle {
+    color: #e75480;
+}
+
+.cat-image {
+    width: 400px;
+    border: 6px solid #f8a5c2;
+    border-radius: 20px;
 }
