@@ -1,1 +1,50 @@
+body {
+    background-color: lightpink;
+}
 
+#title {
+    color: deeppink;
+    text-align: center;
+}
+
+.environment {
+    position: relative;
+    width: 900px;
+    height: 700px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 250px;
+}
+
+#img-0 {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+#img-1 {
+    position: absolute;
+    left: 400px;
+    top: 350px;
+}
+
+#img-3 {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+#img-5 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+#img-17 {
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
