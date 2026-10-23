@@ -1,41 +1,61 @@
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
+    margin: 30px;
+    background-color: white;
 }
 
-.navbar {
-    background-color: #f5822b;
+.container {
+    position: relative;
+    display: block;
+    width: 450px;
+    height: 450px;
+}
+
+.box {
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 80px;
+    background-color: #169b9b;
     border: 2px solid #555;
-    padding: 20px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: relative;
+    box-sizing: border-box;
 }
 
-.name {
-    background-color: #169b9b;
-    color: white;
-    padding: 5px 20px;
-    border: 1px solid #555;
-    font-size: 20px;
-    position: relative;
-    top: -2px;
+.box1 {
+    top: 0;
+    left: 160px;
 }
 
-.links {
-    display: flex;
-    gap: 20px;
+.box2 {
+    top: 95px;
+    left: 55px;
 }
 
-.links div {
-    background-color: #169b9b;
-    color: white;
-    padding: 5px 20px;
-    border: 1px solid #555;
-    font-size: 20px;
+.box3 {
+    top: 95px;
+    left: 265px;
 }
 
+.box4 {
+    top: 195px;
+    left: 0;
+}
+
+.box5 {
+    top: 195px;
+    left: 320px;
+}
+
+.box6 {
+    top: 295px;
+    left: 55px;
+}
+
+.box7 {
+    top: 295px;
+    left: 265px;
+}
+
+.box8 {
+    top: 390px;
+    left: 160px;
+}
