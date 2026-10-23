@@ -1,1 +1,39 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.navbar {
+    background-color: #f5822b;
+    border: 2px solid #555;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.name {
+    background-color: #169b9b;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #555;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links div {
+    background-color: #169b9b;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #555;
+    font-size: 20px;
+}
+
