@@ -1,1 +1,60 @@
 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff5f8;
+    padding: 80px;
+}
+
+h1 {
+    color: #c76b91;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #f4b6cc;
+    color: #333;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* BUTTON 1: SECRET MESSAGE */
+.secret .message {
+    display: none;
+}
+
+.secret:hover .normal {
+    display: none;
+}
+
+.secret:hover .message {
+    display: inline;
+}
+
+/* BUTTON 2: COLOR CHANGE AFTER 1 SECOND */
+.color {
+    transition: background-color 0.5s ease 1s;
+}
+
+.color:hover {
+    background-color: #a9c9ff;
+}
+
+/* BUTTON 3: CHANGE SHAPE */
+.shape {
+    border-radius: 0;
+    transition: border-radius 0.6s ease-in-out;
+}
+
+.shape:hover {
+    border-radius: 50px;
+}
+
