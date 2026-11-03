@@ -1,1 +1,45 @@
 
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding: 30px;
+
+    background-image:
+        url("media/pumpkin.jpg"),
+        url("media/ghost.jpg"),
+        url("media/bats.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size:
+        150px,
+        120px,
+        180px;
+
+    background-position:
+        left top,
+        right top,
+        center bottom;
+
+    background-attachment: fixed;
+}
+
+h1 {
+    color: orange;
+    font-size: 40px;
+}
+
+h2 {
+    color: orange;
+}
+
+p {
+    font-size: 18px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
