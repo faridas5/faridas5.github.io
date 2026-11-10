@@ -1,3 +1,40 @@
+body {
+    background-color: #f5f0e8;
+    color: #333333;
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin: 30px;
+}
+
+nav {
+    background-color: #e5d5c5;
+    padding: 15px;
+}
+
+nav a {
+    color: #333333;
+    margin: 15px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #8b5e83;
+}
+
+h2 {
+    color: #a36c88;
+}
+
+a {
+    color: #8b5e83;
+}
+
+a:hover {
+    color: #c58da5;
+}
+
+
+
 img {
     width: 300px;
     height: 400px;
