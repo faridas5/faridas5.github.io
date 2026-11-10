@@ -1,1 +1,20 @@
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: 8px solid white;
+    border-bottom: 25px solid white;
+    margin: 20px;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+p {
+    max-width: 550px;
+    margin: 20px auto;
+    line-height: 1.8;
+}
+
+h2 {
+    margin-top: 50px;
+}
 
