@@ -1,1 +1,67 @@
 
+body {
+    font-size: 14px;
+    line-height: 1.5em;
+    background-color: lightyellow;
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #4a3b3b;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+img {
+    width: 70%;
+    max-width: 450px;
+    height: auto;
+}
+
+/* Mobile: Under 600px */
+
+.tulip, .rose {
+    display: none;
+}
+
+/* Tablet: 600px to 1199px */
+
+@media all and (min-width: 600px) and (max-width: 1199px) {
+    body {
+        font-size: 24px;
+        line-height: 1.2em;
+        background-color: lavender;
+    }
+
+    .sunflower {
+        display: none;
+    }
+
+    .tulip {
+        display: block;
+    }
+}
+
+/* Desktop: 1200px and above */
+
+@media all and (min-width: 1200px) {
+    body {
+        font-size: 32px;
+        line-height: 1.4em;
+        background-color: lightpink;
+    }
+
+    .sunflower {
+        display: none;
+    }
+
+    .rose {
+        display: block;
+    }
+}
+
