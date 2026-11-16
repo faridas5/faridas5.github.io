@@ -697,3 +697,32 @@ footer {
   }
 }
 
+
+
+/* AUDIO PLAYER */
+.audio-box {
+  background: #171411;
+  color: white;
+  padding: 35px;
+  margin-bottom: 60px;
+  border: 3px solid #F2632B;
+  box-shadow: 10px 10px 0 #F2632B;
+  text-align: center;
+}
+
+.audio-box p {
+  color: #D9EC78;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.audio-box h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.audio-box audio {
+  width: 100%;
+  max-width: 500px;
+}
